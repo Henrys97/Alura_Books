@@ -122,3 +122,34 @@
   text-decoration: none;
 }
 }
+
+.container_texto{
+  display: none;
+}
+
+@media screen and (min-width:1728px) {
+  .container_link {
+    display: flex;
+    text-decoration: none;
+    color: var(--preto);
+    align-items: center;
+  }
+
+  .container img {
+    margin-left: 4em;
+    padding: .1em;
+  }
+
+  .container{
+    margin-right: 5em;
+  }
+
+  .opcoes {
+    margin-right: auto;
+  }
+
+  .container_texto {
+    font-size: 20px;
+    display: block;
+  }
+}
